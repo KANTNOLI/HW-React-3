@@ -1,7 +1,26 @@
 .header {
+    display: flex;
   padding: 20px;
   width: calc(100% - 40px);
   height: calc(20vh - 40px);
 
   background-color: rgb(17, 17, 17);
+}
+
+.sorting {
+    margin-left: 50px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+}
+
+.sortSpan {
+  display: flex;
+  align-items: center;
+}
+
+.sortSpan input{
+    margin-right: 5px;
 }

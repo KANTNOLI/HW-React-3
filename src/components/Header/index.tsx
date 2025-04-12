@@ -5,26 +5,23 @@ function Header() {
     <header className={style.header}>
       <input type="text" />
       <div className={style.sorting}>
-        <span>
+        <span className={style.sortSpan}>
           <input type="radio" name="sort" />
-          asd
+          price
         </span>
 
-        <span>
+        <span className={style.sortSpan}>
           <input type="radio" name="sort" />
-          asd
+          name
         </span>
 
-        <span>
+        <span className={style.sortSpan}>
           <input type="radio" name="sort" />
-          asd
-        </span>
-
-        <span>
-          <input type="radio" name="sort" />
-          asd
+          name length
         </span>
       </div>
+
+      
     </header>
   );
 }
