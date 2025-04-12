@@ -1,0 +1,7 @@
+.header {
+  padding: 20px;
+  width: calc(100% - 40px);
+  height: calc(20vh - 40px);
+
+  background-color: rgb(17, 17, 17);
+}

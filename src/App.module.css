@@ -1,0 +1,9 @@
+
+.body {
+    overflow: hidden;
+    width: 100vw;
+    min-height: 100vh;
+  
+    background-color: rgb(36, 36, 36);
+  }
+  
